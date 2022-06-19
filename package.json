@@ -1,0 +1,25 @@
+{
+  "name": "scouter-academy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RenanppCosta/Scouter-Academy.git"
+  },
+  "author": "Renan Costa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RenanppCosta/Scouter-Academy/issues"
+  },
+  "homepage": "https://github.com/RenanppCosta/Scouter-Academy#readme",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "nodemon": "^2.0.16"
+  }
+}
