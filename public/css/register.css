@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Inconsolata', monospace;
+}
+
+header{
+    background-color: #2C9C66;
+    color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-between;
+    
+}
+
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 2rem;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    padding-right: 8rem;
+}
+
+.menu-botao{
+    list-style: none;
+    display: flex;
+    padding: 1.2rem;
+    gap: 45px;
+    
+}
+
+main{
+    background-image: url("/img/backgroundcampo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Inconsolata', monospace
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+form{
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 70px;
+    border-radius: 4%;
+    color: white;
+}
+
+.titulo{
+    text-align: center;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 2rem;
+}
+
+.label-float input{
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid white;
+    background-color: transparent;
+    outline: none;
+    font-size: 1.2rem;
+    transition: all .3s ease-out;
+    border-radius: 0;
+    color: white;
+}
+
+.label-float{
+    position: relative;
+    padding-top: 26px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.label-float input:focus{
+    border: 2px solid transparent;
+}
+
+.label-float label{
+    color: white;
+    cursor: pointer;;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+}
+
+.label-float input:focus + label{
+    font-size: 13px;
+    margin-top: 0;
+    color: white;
+
+}
+
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+    padding: 7px;
+    font-size: 12px;
+    margin-top: 20px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all .4s ease-out;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+input[type="date"]{
+    color: white;
+    font-size: 16px;
+    padding-top: 14px;
+}
+
+input[type="image"]{
+    display: none;
+}
